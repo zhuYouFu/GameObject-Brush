@@ -4,7 +4,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace GameObjectBrush
+namespace ZYFGameObjectBrush
 {
     [CreateAssetMenu(fileName = "New BrushCollection", menuName = "Tools/Gameobject Brush/Create BrushCollection")]
     public class BrushCollection : ScriptableObject
@@ -46,7 +46,7 @@ namespace GameObjectBrush
         /// </summary>
         public void DeleteSpawnedObjects() {
             foreach (GameObject obj in spawnedObjects) {
-                DestroyImmediate(obj);
+                obj.DestroyGo();
             }
             spawnedObjects.Clear();
         }

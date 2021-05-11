@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEditor;
 using System;
 
-namespace GameObjectBrush
+namespace ZYFGameObjectBrush
 {
 
     /// <summary>
