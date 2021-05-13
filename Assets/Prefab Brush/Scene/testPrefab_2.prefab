@@ -384,6 +384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6552406173706316602}
   - component: {fileID: 1145297092922133615}
+  - component: {fileID: 7929569650883216370}
   m_Layer: 0
   m_Name: testPrefab_2
   m_TagString: Untagged
@@ -425,6 +426,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7929569650883216370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7227784515547768956}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8210786663835185429
 GameObject:
   m_ObjectHideFlags: 0
